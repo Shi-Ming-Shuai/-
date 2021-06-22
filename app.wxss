@@ -1,0 +1,59 @@
+/* 初始化 */
+page,
+view,
+scroll-view,
+swiper,
+swiper-item,
+movable-area,
+movable-view,
+cover-view,
+cover-image,
+icon,
+text,
+rich-text,
+progress,
+button,
+checkbox-group,
+checkbox,
+form,
+input,
+label,
+picker,
+picker-view,
+radio-group,
+radio,
+slider,
+switch,
+textarea,
+navigator,
+functional-page-navigator,
+image,
+video,
+camera,
+live-player,
+live-pusher,
+map,
+canvas,
+open-data,
+web-view,
+ad {
+  box-sizing: border-box;
+}
+/* 联系电话 */
+.call-phone {
+  position: fixed;
+  right: 20rpx;
+  bottom: 200rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0px 0px 5px #888888;
+}
+.van-icon-phone {
+  color: #00b26a;
+}

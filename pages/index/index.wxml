@@ -1,0 +1,13 @@
+<view>
+  <button wx:if="{{!userInfo}}" type="primary" bind:tap="login">授权登录</button>
+  <view wx:else class="user-info">
+    <!-- 用户信息 -->
+    <image src="{{userInfo.avatarUrl}}" />
+    <text>{{userInfo.nickName}}</text>
+    <button bind:tap="loginOut">退出登录</button>
+  </view>
+</view>
+<!-- 打开客服会话 -->
+<button open-type="contact">客服</button>
+<!-- 打开“意见反馈”页面 -->
+<button open-type="feedback">反馈</button>

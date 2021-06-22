@@ -1,0 +1,10 @@
+{
+  "pages": ["pages/index/index"],
+  "window": {
+    "navigationBarBackgroundColor": "#d43c33",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "超博灯饰"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}
